@@ -4,8 +4,12 @@
 # 결과물 : error_log.txt 로 에러로그만 따로 모아서 저장하기
 
 # 1. 파일 읽어오기 - 예외처리
-with open("logs/log.txt","r") as f: # r : 읽기 모드 (파일이 존재해야 함)
-    lines=f.readlines()   # 파일의 모든 줄을 리스트로 읽어오기, 줄 끝에는 보통 \n(줄바꿈 문자)이 포함
+try:
+    with open("logs/log.txt","r") as f: # r : 읽기 모드 (파일이 존재해야 함)
+        lines=f.readlines()   # 파일의 모든 줄을 리스트로 읽어오기, 줄 끝에는 보통 \n(줄바꿈 문자)이 포함
+except FileNotFoundError:
+    print("파일을 찾을 수 없습니다.")
+    exit()
 
 # 2. 에러 추출하기
 error_lines = [line for line in lines if line[0:7] == "[ERROR]" ]
