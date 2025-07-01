@@ -1,5 +1,0 @@
-[WARNING] 경고 발생 at line 3
-[WARNING] 경고 발생 at line 6
-[WARNING] 경고 발생 at line 9
-[WARNING] 경고 발생 at line 12
-[WARNING] 경고 발생 at line 18
