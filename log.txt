@@ -1,0 +1,22 @@
+### 에러 로그 생성 시간:2025-07-01 18:52:03.484249
+
+[INFO] 정상 처리 at line 1
+[INFO] 정상 처리 at line 2
+[WARNING] 경고 발생 at line 3
+[INFO] 정상 처리 at line 4
+[ERROR] 오류 발생 at line 5
+[WARNING] 경고 발생 at line 6
+[INFO] 정상 처리 at line 7
+[INFO] 정상 처리 at line 8
+[WARNING] 경고 발생 at line 9
+[ERROR] 오류 발생 at line 10
+[INFO] 정상 처리 at line 11
+[WARNING] 경고 발생 at line 12
+[INFO] 정상 처리 at line 13
+[INFO] 정상 처리 at line 14
+[ERROR] 오류 발생 at line 15
+[INFO] 정상 처리 at line 16
+[INFO] 정상 처리 at line 17
+[WARNING] 경고 발생 at line 18
+[INFO] 정상 처리 at line 19
+[ERROR] 오류 발생 at line 20
