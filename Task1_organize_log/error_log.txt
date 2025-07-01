@@ -1,0 +1,4 @@
+[ERROR] 오류 발생 at line 5
+[ERROR] 오류 발생 at line 10
+[ERROR] 오류 발생 at line 15
+[ERROR] 오류 발생 at line 20
